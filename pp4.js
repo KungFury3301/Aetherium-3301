@@ -74,7 +74,7 @@ function checkCode() {
         // Set a delay of 2 seconds, then redirect to the next page
         setTimeout(function() {
             window.location.href = 'Choice.html';
-        }, 2000);
+        }, 1000);
     } else {
         // Show the error message
         errorMessage.textContent = 'Incorrect code. Try again.';
