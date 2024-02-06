@@ -1,0 +1,326 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color: #33ff33; /* Green text */
+    background-color: #000; /* Black background */
+    font-family: 'Courier New', monospace; /* Monospaced font for the binary look */
+}
+.game-title {
+    font-size: 3.5em; /* Increase font size for imposing look */
+    font-weight: 50; /* Use a thin font weight; values can be from 100 to 900 */
+    color: #33ff33; /* Green text color to match the theme */
+    text-align: center; /* Center the title */
+    margin: 0 0 20px 0; /* Adjusted space between the title and the next line of text */
+    text-transform: uppercase; /* Optional: makes all letters uppercase */
+    letter-spacing: 5px; /* Optional: increases spacing between letters for more impact */
+}
+
+.intro-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.binary-message {
+    text-align: center;
+    letter-spacing: 5px; /* Adds space between characters */
+    line-height: 1.5; /* Adds space between lines */
+}
+
+.start-button {
+    background-color: #0f0; /* Green background for the button */
+    color: #000; /* Black text */
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+.start-button:hover {
+    background-color: #0b0; /* Slightly darker green on hover */
+}
+
+body {
+    background-color: #000; /* Adjust to match your site's background color */
+}
+
+.hidden-text {
+    color: #000; /* Same as background to 'hide' the text on the web page */
+}
+
+
+
+.First-puzzle-container h1{
+  text-align: center; /* Keeps the title centered */
+  width: 100%; /* Allows the title to span the full width */
+  margin-bottom: 50px; /* Space below the title */
+  margin-top: 10px; /* Lower the title down on the page */
+  font-size: 40px; /* Increase font size to make it larger */
+  font-weight: 30; /* Adjust the weight of the font, if desired */
+  font-family: 'VT323', monospace; /* Change to a typewriter-style font to match vibe */
+  color: #Green; /* Adjust color to make it stand out - example color */
+}
+
+
+
+.Second-puzzle-container h1 {
+  text-align: center; /* Keeps the title centered */
+  width: 100%; /* Allows the title to span the full width */
+  margin-bottom: 50px; /* Space below the title */
+  margin-top: 10px; /* Lower the title down on the page */
+  font-size: 30px; /* Increase font size to make it larger */
+  font-weight: 30; /* Adjust the weight of the font, if desired */
+  font-family: 'VT323', monospace; /* Change to a typewriter-style font to match vibe */
+  color: #Green; /* Adjust color to make it stand out - example color */
+}
+
+.Third-puzzle-container h1 {
+  text-align: center; /* Keeps the title centered */
+  width: 100%; /* Allows the title to span the full width */
+  margin-bottom: 50px; /* Space below the title */
+  margin-top: 10px; /* Lower the title down on the page */
+  font-size: 40px; /* Increase font size to make it larger */
+  font-weight: 30; /* Adjust the weight of the font, if desired */
+  font-family: 'VT323', monospace; /* Change to a typewriter-style font to match vibe */
+  color: #Green; /* Adjust color to make it stand out - example color */
+}
+
+.Fourth-puzzle-container h1 {
+  text-align: center; /* Keeps the title centered */
+  width: 100%; /* Allows the title to span the full width */
+  margin-bottom: 50px; /* Space below the title */
+  margin-top: 10px; /* Lower the title down on the page */
+  font-size: 40px; /* Increase font size to make it larger */
+  font-weight: 30; /* Adjust the weight of the font, if desired */
+  font-family: 'VT323', monospace; /* Change to a typewriter-style font to match vibe */
+  color: #Green; /* Adjust color to make it stand out - example color */
+}
+
+.Choice-puzzle-container h1 {
+  text-align: center; /* Keeps the title centered */
+  width: 100%; /* Allows the title to span the full width */
+  margin-bottom: 50px; /* Space below the title */
+  margin-top: 10px; /* Lower the title down on the page */
+  font-size: 40px; /* Increase font size to make it larger */
+  font-weight: 30; /* Adjust the weight of the font, if desired */
+  font-family: 'VT323', monospace; /* Change to a typewriter-style font to match vibe */
+  color: #Green; /* Adjust color to make it stand out - example color */
+}
+
+
+
+
+.code-entry {
+  text-align: center;
+  margin-top: 10px; /* Adjust as needed */
+}
+
+#secret-code {
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.code-entry button {
+  padding: 10px;
+  background-color: #04AA6D; /* Or any color that fits your theme */
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.code-entry button:hover {
+  background-color: #037d53; /* Darken button when hovered for better UX */
+}
+
+/* Input field styling */
+input[type="text"]#secret-code {
+  background-color: transparent; /* Make background transparent */
+  border: 2px solid #33ff33; /* Green border to stand out */
+  color: #33ff33; /* Green text to match the theme */
+  font-size: 1.2em; /* Larger font size for emphasis */
+  padding: 10px; /* Spacing inside the input */
+  margin-top: 20px; /* Space from the text above */
+  width: 250px; /* Set a fixed width */
+  outline: none; /* Remove the outline to keep the style clean */
+  box-shadow: 0 0 10px #33ff33; /* Add a glow effect */
+  text-shadow: 0 0 5px #33ff33; /* Green text shadow for a mysterious glow */
+}
+
+/* Button styling */
+button {
+  background-color: #000; /* Black background to contrast the input */
+  border: 2px solid #33ff33; /* Green border to match the input field */
+  color: #33ff33; /* Green text */
+  padding: 10px 20px; /* Padding for a larger clickable area */
+  font-size: 1.2em; /* Larger font size to match the input */
+  cursor: pointer; /* Change cursor to pointer to indicate it's clickable */
+  box-shadow: 0 0 10px #33ff33; /* Glow effect */
+  text-shadow: 0 0 5px #33ff33; /* Text glow for mystery */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: #33ff33; /* Change background to green on hover */
+  color: #000; /* Change text color to black on hover */
+  border-color: #000; /* Change border color to black on hover */
+}
+
+
+/* Error message styling */
+#error-message {
+  color: red;
+  opacity: 0; /* Start with the message transparent */
+  transition: opacity 1s ease; /* Smooth transition for the fade effect */
+  display: none; /* Keep it hidden until an error occurs */
+}
+
+/* Add this to your style.css */
+
+#typewriter1 {
+    text-align: center; /* Center text horizontally */
+    width: 80%; /* Full width of the container */
+    margin: 0 auto; /* Center the container itself horizontally */
+    white-space: pre-wrap; /* Wrap text and preserve whitespace and newlines */
+    word-wrap: break-word; /* Break long words that would otherwise overflow */
+    overflow-wrap: break-word; /* Ensure proper word breaking */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    height: 50vh; /* Use at least 100% of the viewport height */
+    font-family: 'VT323', monospace; /* Preserving the typewriter-style font */
+    padding: 0 10%; /* Add padding to prevent text from touching the edges */
+	
+}
+
+
+#typewriter2 {
+    text-align: center; /* Center text horizontally */
+    width: 80%; /* Full width of the container */
+    margin: 0 auto; /* Center the container itself horizontally */
+    white-space: pre-wrap; /* Wrap text and preserve whitespace and newlines */
+    word-wrap: break-word; /* Break long words that would otherwise overflow */
+    overflow-wrap: break-word; /* Ensure proper word breaking */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    height: 60vh; /* Use at least 100% of the viewport height */
+    font-family: 'VT323', monospace; /* Preserving the typewriter-style font */
+    padding: 0 10%; /* Add padding to prevent text from touching the edges */
+}
+
+
+#typewriter3 {
+    text-align: center; /* Center text horizontally */
+    width: 80%; /* Full width of the container */
+    margin: 0 auto; /* Center the container itself horizontally */
+    white-space: pre-wrap; /* Wrap text and preserve whitespace and newlines */
+    word-wrap: break-word; /* Break long words that would otherwise overflow */
+    overflow-wrap: break-word; /* Ensure proper word breaking */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    height: 60vh; /* Use at least 100% of the viewport height */
+    font-family: 'VT323', monospace; /* Preserving the typewriter-style font */
+    padding: 0 10%; /* Add padding to prevent text from touching the edges */
+}
+
+#typewriter4 {
+    text-align: center; /* Center text horizontally */
+    width: 80%; /* Full width of the container */
+    margin: 0 auto; /* Center the container itself horizontally */
+    white-space: pre-wrap; /* Wrap text and preserve whitespace and newlines */
+    word-wrap: break-word; /* Break long words that would otherwise overflow */
+    overflow-wrap: break-word; /* Ensure proper word breaking */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    height: 60vh; /* Use at least 100% of the viewport height */
+    font-family: 'VT323', monospace; /* Preserving the typewriter-style font */
+    padding: 0 10%; /* Add padding to prevent text from touching the edges */
+	 font-size: 14px; /* This sets the font size to 24 pixels. Adjust as needed. */
+ 
+
+}
+
+
+#typewriterC {
+    text-align: center; /* Center text horizontally */
+    width: 80%; /* Full width of the container */
+    margin: 0 auto; /* Center the container itself horizontally */
+    white-space: pre-wrap; /* Wrap text and preserve whitespace and newlines */
+    word-wrap: break-word; /* Break long words that would otherwise overflow */
+    overflow-wrap: break-word; /* Ensure proper word breaking */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    height: 60vh; /* Use at least 100% of the viewport height */
+    font-family: 'VT323', monospace; /* Preserving the typewriter-style font */
+    padding: 0 10%; /* Add padding to prevent text from touching the edges */
+	
+}
+
+@keyframes fadeIn {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
+
+#typewggriter {
+    /* fix later Existing #typewriter stylesf should be here (font-family, color, etc.) */
+    animation: fadeIn 40s ease-in-out forwards; /* This will make the typewriter text fade in */
+    animation-delay: 15s; /* This will start the typewriter text fade in after the title */
+}
+
+
+#playMusicButton {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background-color: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#playMusicButton:hover {
+  background-color: darkgreen;
+}
+
+
+/* Existing CSS above */
+.buttons-container {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#joinButton {
+  margin-left: 20px;
+  /* Additional styling */
+}
+
+#rejectButton {
+  margin-right: 20px;
+  /* Additional styling */
+}
+/* Existing CSS continues */
+
+.secret-message {
+  color: #000000; /* Same as the background color */
+  background-color: #000000; /* Optional, in case the background is not uniformly black */
+  font-size: 10px; /* This sets the font size to 24 pixels. Adjust as needed. */
+ 
+}
+.secret-message4 {
+  color: #000000; /* Same as the background color */
+  background-color: #000000; /* Optional, in case the background is not uniformly black */
+  font-size: 1px; /* This sets the font size to 24 pixels. Adjust as needed. */
+ 
+}
