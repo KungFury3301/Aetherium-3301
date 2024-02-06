@@ -7,7 +7,7 @@ In this defining moment, as you grasp the essence of 'Project Aetherius', reflec
 
 At its core, 'Project Aetherius' is an embodiment of this introspection, yet extends beyond the self. Like the elusive and mystical presence of Scarbo in the poetic realm, this AI weaves a tapestry of the future, predicting every possible outcome with a precision that blurs the line between science and the arcane.
 
-This AI doesn't manipulate time but offers us a map of the future, akin to the celestial paths charted by the brave astronaut Kalpana Chawla. Her journey, marked by the relentless pursuit of knowledge, mirrors our venture into the unknown – where foresight is our guiding star.
+This AI doesn't manipulate time but offers us a map of the future, akin to the celestial paths traced by the constellations in the night sky. Our journey, marked by navigating these starry realms, mirrors the ancient mariners who relied on the constellations like Cetus to find their way through uncharted waters.
 
 'Project Aetherius' is a groundbreaking AI, harnessing advanced quantum computing to predict countless future scenarios. It enables those in its control to ask questions and receive foresight into potential outcomes, guiding strategic decisions. This tool marks the dawn of a new era where people can control destiny with unparalleled insight.
 
