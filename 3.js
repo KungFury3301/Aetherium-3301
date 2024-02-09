@@ -31,11 +31,11 @@ document.addEventListener('DOMContentLoaded', function() {
   
   var typewriterText = `Dear Seeker,
 
-Your progress has not gone unnoticed, and your patience will be rewarded. Now, let's delve deeper into 'Project Aetherius', a journey I have charted to guide you to its core.
+Your progress has not gone unnoticed, and your patience will be rewarded. Now, let's delve deeper into 'Project Aetherium', a journey I have charted to guide you to its core.
 
-Unearthing 'Project Aetherius' was like revealing a hidden empire, shrouded in secrecy and holding immense power. This project intertwines advanced technology with quantum computing and unparalleled artificial intelligence, pushing the limits of possibility.
+Unearthing 'Project Aetherium' was like revealing a hidden empire, shrouded in secrecy and holding immense power. This project intertwines advanced technology with quantum computing and unparalleled artificial intelligence, pushing the limits of possibility.
 
-The knowledge within 'Project Aetherius' offers a chance to shape the world. It's more than scientific advancement; it's about wielding unseen power and influencing history's course.
+The knowledge within 'Project Aetherium' offers a chance to shape the world. It's more than scientific advancement; it's about wielding unseen power and influencing history's course.
 
 The truths I share are from deep investigations, encoded to test your intellect and understanding of power. We must outsmart the vigilant eyes that guard 'Project Aetherius', as we piece together each part of this larger, commanding design.
 
