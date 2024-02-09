@@ -37,7 +37,7 @@ Unearthing 'Project Aetherium' was like revealing a hidden empire, shrouded in s
 
 The knowledge within 'Project Aetherium' offers a chance to shape the world. It's more than scientific advancement; it's about wielding unseen power and influencing history's course.
 
-The truths I share are from deep investigations, encoded to test your intellect and understanding of power. We must outsmart the vigilant eyes that guard 'Project Aetherius', as we piece together each part of this larger, commanding design.
+The truths I share are from deep investigations, encoded to test your intellect and understanding of power. We must outsmart the vigilant eyes that guard 'Project Aetherium', as we piece together each part of this larger, commanding design.
 
 Stay vigilant in this shadowed path. We are not merely uncovering secrets; we are stepping into roles of power reserved for a select few. The future we forge leads to a domain where the enlightened reign. As we move forward, remember how far you have come.
 
