@@ -4,15 +4,15 @@
 
 
 document.addEventListener('DOMContentLoaded', function () {
-    var typewriterText = `Dear Navigator, If you are reading this, you have embarked on a journey that transcends ordinary minds. I go by Eris, and I have unveiled something monumental - "Project Aetherius", a name that resonates awe and caution.
+    var typewriterText = `Dear Navigator, If you are reading this, you have embarked on a journey that transcends ordinary minds. I go by Eris, and I have unveiled something monumental - "Project Aetherium", a name that resonates awe and caution.
 
 My journey began, not as a mere quest, but as a destined path, with a document titled as "Government File 136199." This code, seemingly a mundane marker in a sea of bureaucratic obscurity, beckoned to me like coordinates on a map.
 
-This file was my portal into a vast and obscured universe, a project so enshrouded in secrecy that its existence seems as elusive as a myth. 'Project Aetherius' whispers of power and dominion, realms that lie beyond the grasp of the uninitiated, reaching as far as the stars themselves.
+This file was my portal into a vast and obscured universe, a project so enshrouded in secrecy that its existence seems as elusive as a myth. 'Project Aetherium' whispers of power and dominion, realms that lie beyond the grasp of the uninitiated, reaching as far as the stars themselves.
 
 I spend my days and nights deciphering cryptic messages - coded communications, intricate financial patterns, and gatherings that vanish like comets. This pursuit is solitary, distinguishing the extraordinary from the mundane. But this journey is for the few, the ones like you and me. It's not just about uncovering secrets; it's about harnessing potential for greater control, guiding those who wander in the darkness.
 
-Together, we will unravel the layers of 'Project Aetherius'. Our expedition may lead us into unexplored territories, where the known universe of power and reality is expanded. In our celestial quest, we are akin to the navigators of old, charting a course through the constellations, ever guided by the cosmic whale swimming in the vast sea of stars. Are you prepared to chart this course with me?
+Together, we will unravel the layers of 'Project Aetherium'. Our expedition may lead us into unexplored territories, where the known universe of power and reality is expanded. In our celestial quest, we are akin to the navigators of old, charting a course through the constellations, ever guided by the cosmic whale swimming in the vast sea of stars. Are you prepared to chart this course with me?
 
 Eris`;
 
