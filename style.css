@@ -324,3 +324,272 @@ button:hover {
   font-size: 1px; /* This sets the font size to 24 pixels. Adjust as needed. */
  
 }
+/* === Store Page Layout === */
+.store-page {
+    background: radial-gradient(circle at top, rgba(51, 255, 51, 0.08), transparent 55%) #000;
+    min-height: 100vh;
+}
+
+.store-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 10vw 16px;
+    border-bottom: 1px solid rgba(51, 255, 51, 0.25);
+    background: rgba(0, 0, 0, 0.85);
+    backdrop-filter: blur(6px);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.store-brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.brand-mark {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background: #33ff33;
+    box-shadow: 0 0 10px #33ff33;
+}
+
+.store-nav a {
+    color: #33ff33;
+    text-decoration: none;
+    margin-left: 24px;
+    font-size: 0.95rem;
+    letter-spacing: 2px;
+    position: relative;
+}
+
+.store-nav a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 0;
+    height: 1px;
+    background: #33ff33;
+    transition: width 0.3s ease;
+    box-shadow: 0 0 6px #33ff33;
+}
+
+.store-nav a:hover::after {
+    width: 100%;
+}
+
+.store-hero {
+    position: relative;
+    padding: 120px 10vw 80px;
+    background: linear-gradient(135deg, rgba(51, 255, 51, 0.05) 0%, rgba(0, 0, 0, 0.9) 100%);
+    overflow: hidden;
+}
+
+.store-hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: linear-gradient(rgba(51, 255, 51, 0.12) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(51, 255, 51, 0.12) 1px, transparent 1px);
+    background-size: 40px 40px;
+    opacity: 0.25;
+}
+
+.hero-overlay {
+    position: relative;
+    max-width: 680px;
+}
+
+.hero-kicker {
+    font-size: 0.85rem;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    color: rgba(51, 255, 51, 0.7);
+}
+
+.hero-title {
+    font-size: 2.8rem;
+    margin: 0 0 16px;
+    text-transform: uppercase;
+}
+
+.hero-subtitle {
+    line-height: 1.7;
+    max-width: 540px;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.cta-button {
+    display: inline-block;
+    margin-top: 28px;
+    padding: 14px 28px;
+    border: 1px solid #33ff33;
+    color: #000;
+    background: #33ff33;
+    text-decoration: none;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    box-shadow: 0 0 12px rgba(51, 255, 51, 0.6);
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.cta-button:hover {
+    background: #000;
+    color: #33ff33;
+}
+
+.store-content {
+    padding: 60px 10vw 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.section-heading {
+    margin-bottom: 32px;
+}
+
+.section-heading h3 {
+    margin: 0 0 12px;
+    font-size: 2rem;
+    letter-spacing: 3px;
+}
+
+.section-heading p {
+    margin: 0;
+    color: rgba(255, 255, 255, 0.7);
+    max-width: 620px;
+}
+
+.product-grid {
+    display: grid;
+    gap: 32px;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.product-card {
+    background: rgba(0, 0, 0, 0.85);
+    border: 1px solid rgba(51, 255, 51, 0.25);
+    padding: 28px;
+    position: relative;
+    box-shadow: 0 0 16px rgba(51, 255, 51, 0.15);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.product-badge {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 0.7rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding: 6px 10px;
+    border: 1px solid #33ff33;
+    background: rgba(51, 255, 51, 0.1);
+}
+
+.product-badge.alt {
+    border-color: #0ff;
+    color: #0ff;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+}
+
+.product-card h4 {
+    margin: 0;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+}
+
+.product-meta {
+    font-size: 0.85rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: rgba(51, 255, 51, 0.7);
+}
+
+.product-desc {
+    margin: 0;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.product-footer {
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.product-price {
+    font-size: 1.2rem;
+    letter-spacing: 3px;
+}
+
+.product-footer button {
+    border: 1px solid #33ff33;
+    background: transparent;
+    color: #33ff33;
+    padding: 10px 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.product-footer button:hover {
+    background: #33ff33;
+    color: #000;
+}
+
+.intel-grid,
+.faq-grid {
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.intel-card,
+.faq-item {
+    border: 1px solid rgba(51, 255, 51, 0.25);
+    padding: 24px;
+    background: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 12px rgba(51, 255, 51, 0.1);
+}
+
+.store-footer {
+    text-align: center;
+    padding: 40px 0 60px;
+    border-top: 1px solid rgba(51, 255, 51, 0.25);
+    background: rgba(0, 0, 0, 0.85);
+}
+
+@media (max-width: 768px) {
+    .store-header {
+        flex-direction: column;
+        gap: 16px;
+        align-items: flex-start;
+    }
+
+    .store-nav a {
+        margin-left: 0;
+        margin-right: 18px;
+    }
+
+    .hero-title {
+        font-size: 2.2rem;
+    }
+
+    .store-content {
+        padding: 40px 8vw 100px;
+        gap: 60px;
+    }
+}
